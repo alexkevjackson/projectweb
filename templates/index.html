@@ -1,5 +1,10 @@
-<!DOCTYPE html>
-<html>
-<p>Hello {{ username }}</p>
-</body>
-</html>
+<!-- “Child Template” -->
+{% extends 'layout.html' %}
+{% block title %} Index {% endblock %}
+{% block head %}
+ {{ super() }}
+{% endblock %}
+{% block content %}
+ <h1>Hello World</h1>
+ <p>Welcome to projectweb.site.</p>
+{% endblock %}

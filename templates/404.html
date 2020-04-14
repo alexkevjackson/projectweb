@@ -1,0 +1,7 @@
+{% extends ‘layout.html’ %}
+{% block title %} Page Not Found {% endblock %}
+{% block body %}
+ <h1>404 Error :(</h1>
+ <p>No such document at this location..<p>
+ <a href=”{{ url_for(‘index’) }}”>Go to main page.</a>
+{% endblock %}
