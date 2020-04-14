@@ -1,6 +1,12 @@
 This is the initial development of the web application to be hosted on projectweb.
-It uses flask. Flask requires an environmental variable to load its test server that runs on localhost, so source ~/environ
+It uses flask. Flask requires an environmental variable to load its test server that runs on localhost, so source ~/environ for flask.
+The pipenv has all the requisites to run this. All you need to do is:
+pipenv shell
+
+This loads the virtual environment.
+Different extensions are available depending on your shell, but you'll likely want the default without one if you're using sh, bash, or zsh.
 
 Requirements:
-	Flask
+	flask
+  flask-ldap-login
 	html boilerplate - https://html5boilerplate.com/ - https://github.com/h5bp/html5-boilerplate
