@@ -1,0 +1,2 @@
+This is the initial development of the web application to be hosted on projectweb.
+It uses flask. Flask requires an environmental variable to load its test server that runs on localhost, so source ~/environ
